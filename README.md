@@ -1,5 +1,5 @@
 # linkedin-profile-getter
-React component and Node server that get the available public data that LinkedIn provides from the user's profile.
+React client and Node server that get the available public data that LinkedIn provides from the user's profile.
 
 ## How to use
 #### Step 1: Open a terminal and launch the server
