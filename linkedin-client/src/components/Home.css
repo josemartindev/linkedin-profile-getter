@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-linkedin {
+  background: transparent !important;
+  border-style: none !important;
+  outline: none;
+}
+
+.btn-linkedin:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.6;
+}
