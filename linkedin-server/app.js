@@ -7,9 +7,9 @@ const fetch = require("node-fetch");
 const querystring = require('query-string')
 const url = "https://api.linkedin.com/v2/me"
 
-const CLIENT_ID="" //place your id here
-const CLIENT_SECRET="" //place your secret here
-const REDIRECT_URI="" //place the same redirect uri from the linkedin developer website
+const CLIENT_ID="77tphgacu7dzs8" //place your id here
+const CLIENT_SECRET="6mnWRJO6G5goIojp" //place your secret here
+const REDIRECT_URI="http://localhost:3000/auth/linkedin/callback" //place the same redirect uri from the linkedin developer website
 
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
