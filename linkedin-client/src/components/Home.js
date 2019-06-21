@@ -5,8 +5,8 @@ import './Home.css'
 import { LinkedIn } from 'react-linkedin-login-oauth2' //gets only the authorization code
 import axios from 'axios'
 
-const CLIENT_ID = "77tphgacu7dzs8"
-const REDIRECT_URI = "http://localhost:3000/auth/linkedin/callback"
+const CLIENT_ID = ""
+const REDIRECT_URI = ""
 
 class Home extends Component{
   state = {
